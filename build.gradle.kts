@@ -10,6 +10,7 @@ kotlin{
 
 plugins {
     kotlin("jvm") version "1.9.10"
+    id("org.flywaydb.flyway") version "10.0.0"
     id("io.ktor.plugin") version "2.3.4"
     id("org.jetbrains.kotlin.plugin.serialization") version "1.8.0"
 }
